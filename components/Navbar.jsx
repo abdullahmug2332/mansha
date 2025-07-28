@@ -17,7 +17,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <nav className=' fixed top-0 left-0 w-[100vw] z-[8] bg-white border-b-4 border-[#3F82D7]'>
+        <nav className=' fixed top-0 left-0 w-[100vw] z-[8] bg-white border-b-4 border-[#3F82D7] overflow-hidden'>
             <div className="container mx-auto flex items-center ">
                 <Image src={logo} alt="english" className="w-[150px] hover:scale-[1.1] duration-300 cursor-pointer" />
                 <div className=' items-center mx-auto hidden md:flex'>

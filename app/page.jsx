@@ -6,7 +6,7 @@ import GetInTouch from "@/components/GetInTouch";
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-[100vw] overflow-hidden">
       <HomeHero/>
       <Home2/>
       <Approch/>

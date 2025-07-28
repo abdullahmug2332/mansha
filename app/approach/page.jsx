@@ -64,7 +64,7 @@ export default function page() {
         setActiveCard((prev) => (prev === id ? null : id));
     };
     return (
-        <>
+        <div className='w-[100vw] overflow-hidden'>
             {/* Section1  */}
             <div className='container mx-auto'>
                 <div className='py-[20px] md:py-[40px] lg:py-[80px]'>
@@ -162,6 +162,6 @@ export default function page() {
             {/* Section4  */}
             <GetInTouch />
 
-        </>
+        </div>
     )
 }
