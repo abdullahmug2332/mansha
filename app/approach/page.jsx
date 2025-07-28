@@ -50,7 +50,7 @@ export default function page() {
         { step: "01", title: "Research", img: img1 },
         { step: "02", title: "Design", img: img2 },
         { step: "03", title: "Sourcing", img: img3 },
-        { step: "04", title: "Pre-Production Planning", img: img4 },
+        { step: "04", title: "Production Plan", img: img4 },
         { step: "05", title: "Production", img: img5 },
         { step: "06", title: "Quality Control", img: img6 },
         { step: "07", title: "Packaging", img: img7 },
@@ -147,9 +147,9 @@ export default function page() {
                             <Image
                                 src={card.img}
                                 alt='step image'
-                                className='w-full  rounded-full object-cover border-[7px] border-[#d2ecfa] shadow-md aspect-square absolute top-0'
+                                className='w-[95%]  rounded-full object-cover border-[7px] border-[#d2ecfa] shadow-md aspect-square absolute top-0'
                             />
-                            <div className='flex flex-col justify-end bg-[#D2ECFA] w-full pt-[70px] pb-[30px] px-4 rounded-t-[200px] rounded-b-[90px] text-center shadow min-h-[320px] sm:h-[420px]  md:h-[310px] lg:h-[350px]  xl:h-[280px] 2xl:h-[270px]'>
+                            <div className='flex flex-col justify-end bg-[#D2ECFA] w-full pt-[70px] pb-[30px] px-4 rounded-t-[90%] rounded-b-[40px] text-center shadow h-[280px]  sm:h-[420px]  md:h-[310px] lg:h-[350px]  xl:h-[250px] 2xl:h-[260px]'>
                                 <p className='text-[20px] font-semibold text-[#3E82DF] lg:mt-[10px]'>{card.step}</p>
                                 <p className='text-[17px] font-medium text-gray-700'>{card.title}</p>
                             </div>
