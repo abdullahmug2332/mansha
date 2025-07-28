@@ -34,10 +34,10 @@ export default function Carouselone() {
     return (
         <>
             <div className="w-full flex justify-center py-10">
-                <Carousel opts={{ align: "start" }} className="w-[70%] md:w-full max-w-xl">
-                    <CarouselContent>
+                <Carousel opts={{ align: "start" }} className="w-[70%] md:w-full max-w-xl ">
+                    <CarouselContent  >
                         {carouselData.map((item, index) => (
-                            <CarouselItem key={item.id} className="md:basis-full">
+                            <CarouselItem key={index} className="md:basis-full ">
                                 <div className="p-4">
                                     <Card className="bg-[#EAF7FE] text-black shadow-lg">
                                         <CardContent className="flex flex-col gap-4 p-6">
