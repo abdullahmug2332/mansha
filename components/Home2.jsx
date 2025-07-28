@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import img from "../public/images/homeimage2.webp"
+import Link from 'next/link'
 
 export default function Home2() {
     return (
@@ -18,7 +19,9 @@ export default function Home2() {
                         and something you can count on. Partnering with global
                         names to build sustainable value in every stitch, every strike.
                     </p>
-                    <button className='bg-[#3C9BE8] text-white text-[19px] px-[20px] py-[15px] rounded-[10px] mt-[10px] lg:mt-[0]'>More about Our Identity</button>
+                    <Link href={"/identity"}>
+                    <button  className='bg-[#3C9BE8] text-white text-[19px] px-[20px] py-[15px] rounded-[10px] mt-[10px] lg:mt-[0]'>More about Our Identity</button>
+                    </Link>
                 </div>
             </div>
             <hr className='my-[20px] border-[1.5px] border-[#808080]'/>

@@ -1,5 +1,7 @@
 "use client";
 import React, { useState } from "react";
+import Link from 'next/link'
+
 
 export default function Approch() {
   const cardData = [
@@ -60,10 +62,11 @@ export default function Approch() {
             );
           })}
         </div>
-
-        <button className="bg-[#3C9BE8] text-white text-[19px] px-[20px] py-[15px] rounded-[10px] mt-[10px] lg:mt-[0]">
-          More about Our Identity
-        </button>
+        <Link href={"/identity"}>
+          <button className="bg-[#3C9BE8] text-white text-[19px] px-[20px] py-[15px] rounded-[10px] mt-[10px] lg:mt-[0]">
+            More about Our Identity
+          </button>
+        </Link>
         <hr className="my-[20px] border-[1.5px] border-[#808080]" />
       </div>
     </div>

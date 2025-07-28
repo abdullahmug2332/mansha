@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function GetInTouch() {
   return (
@@ -9,9 +10,12 @@ export default function GetInTouch() {
           looking to elevate product quality, streamline production, or develop something entirely new —
           let's start a conversation and create something exceptional together.</p>
       </div>
+
+      <Link href={"/contact"}>
       <button className="bg-[#3C9BE8] text-white text-[19px] px-[35px] py-[5px] rounded-[10px] mt-[10px] lg:mt-[0] relative bottom-[20px]">
         Contact Us
       </button>
+      </Link>
     </div>
   )
 }
