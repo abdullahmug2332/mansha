@@ -147,9 +147,9 @@ export default function page() {
                             <Image
                                 src={card.img}
                                 alt='step image'
-                                className='w-full  rounded-full object-cover border-4 border-white shadow-md aspect-square absolute top-0'
+                                className='w-full  rounded-full object-cover border-[7px] border-[#d2ecfa] shadow-md aspect-square absolute top-0'
                             />
-                            <div className='flex flex-col justify-end bg-[#D2ECFA] w-full pt-[70px] pb-[30px] px-4 rounded-t-[200px] rounded-b-[20px] text-center shadow min-h-[420px] md:min-h-[350px]  xl:min-h-[300px]'>
+                            <div className='flex flex-col justify-end bg-[#D2ECFA] w-full pt-[70px] pb-[30px] px-4 rounded-t-[200px] rounded-b-[90px] text-center shadow min-h-[320px] sm:h-[420px]  md:h-[310px] lg:h-[350px]  xl:h-[280px] 2xl:h-[270px]'>
                                 <p className='text-[20px] font-semibold text-[#3E82DF] lg:mt-[10px]'>{card.step}</p>
                                 <p className='text-[17px] font-medium text-gray-700'>{card.title}</p>
                             </div>

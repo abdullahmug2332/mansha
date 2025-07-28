@@ -24,7 +24,8 @@ export default function Navbar() {
                     <Link href="/" className=' navlinks'>Home</Link>
                     <Link href="/identity" className='navlinks'>Identity</Link>
                     <Link href="/approach" className='navlinks'>Approch</Link>
-                    <div className='navlinks'>Contact</div>
+                    <Link href="/contact" className='navlinks'>Contact</Link>
+
                 </div>
 
                 <Sheet>
@@ -38,7 +39,7 @@ export default function Navbar() {
                                     <Link href="/" className=' navlinks'>Home</Link>
                                     <Link href="/identity" className='navlinks'>Identity</Link>
                                     <Link href="/approach" className='navlinks'>Approch</Link>
-                                    <div className='navlinks'>Contact</div>
+                                    <Link href="/contact" className='navlinks'>Contact</Link>
                                 </div>
                             </SheetDescription>
                         </SheetHeader>
