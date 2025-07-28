@@ -59,7 +59,7 @@ export default function Carouselone() {
                     {carouselData.map((item, index) => (
                         <CarouselItem key={index} className="md:basis-full">
                             <div className="p-4">
-                                <Card className="bg-[#EAF7FE] text-black shadow-lg">
+                                <Card className="bg-[#EAF7FE] text-black shadow-lg h-[340px]">
                                     <CardContent className="flex flex-col gap-4 p-6">
                                         <h3 className="text-xl font-bold">{item.title}</h3>
                                         <p className="text-sm leading-6">{item.content}</p>
