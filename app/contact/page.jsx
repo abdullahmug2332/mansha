@@ -4,7 +4,7 @@ import Location from "@/components/Location"
 
 export default function page() {
   return (
-    <div className='w-[100vw] overflow-hidden'>
+    <div className='w-[100vw] '>
     <ContactForm/>
     <Location/>
     </div>
