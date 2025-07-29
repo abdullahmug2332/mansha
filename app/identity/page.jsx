@@ -26,7 +26,7 @@ export default function page() {
         },
     ];
     return (
-        <div className='w-[100vw] '>
+        <div className='w-[100vw] overflow-x-hidden'>
             <div className='container mx-auto'>
                 <div className='py-[20px] md:py-[40px] lg:py-[80px]'>
                     <p className='text-[50px] leading-[50px] md:text-[101px] font-bold md:leading-[72px]'>Built on </p>
